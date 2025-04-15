@@ -1,0 +1,135 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #fffdf5;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff5722 !important;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #fff !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #ffe082 !important;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-section .lead {
+    font-size: 1.4rem;
+}
+
+/* About & Team Sections */
+section h2 {
+    color: #e64a19;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.bg-light {
+    background-color: #fff8f0 !important;
+}
+
+/* Footer */
+footer {
+    background-color: #3e2723;
+    color: #fff;
+}
+
+footer h5 {
+    color: #ffcc80;
+}
+
+.social-links a {
+    font-size: 1.4rem;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.social-links a:hover {
+    color: #ffcc80;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #ff7043;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #e64a19;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-section .lead {
+        font-size: 1.1rem;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+}
